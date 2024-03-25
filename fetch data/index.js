@@ -24,6 +24,10 @@
 
 
 //fetching using an async await function
+// the code collects the pokemon character name submitted by the user inside a front-end input field in index.html
+// it uses the pokemon api to fetch the response object related to the pokemon specified by the user
+// the code references the sprites attribute in the response object to get the image of the pokemon
+// finally,it places the image inside the src attribute of the image(within index.html) then changes display property to block to make it visible
 
 fetchData()
 async function fetchData(){
