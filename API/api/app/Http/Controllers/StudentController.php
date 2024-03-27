@@ -24,6 +24,7 @@ class StudentController extends Controller
         
         [
             'name'=>'required',
+            
             'email'=>'required|email'
         ]);
 
